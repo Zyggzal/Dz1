@@ -22,7 +22,7 @@ public:
 	string getAuth() const;
 	int getYear() const;
 
-	virtual void show();
+	virtual void show() const;
 };
 
 
