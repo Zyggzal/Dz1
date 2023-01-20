@@ -10,6 +10,7 @@ protected:
 	string author;
 	int year;
 public:
+
 	Publication();
 	Publication(string n, string a, int y);
 
