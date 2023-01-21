@@ -16,6 +16,9 @@ public:
 
 	void setName(string n);
 	string getName() const;
+	void addPub(Publication a);
+	Publication findPub(int n) const;
+	void delPub(int n);
 
 	void show() const;
 };
