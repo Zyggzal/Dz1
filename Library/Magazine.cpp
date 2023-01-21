@@ -2,9 +2,6 @@
 
 Magazine::Magazine()
 {
-
-	//fghfr
-
 }
 
 Magazine::Magazine(string n, string a, int y)
