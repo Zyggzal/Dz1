@@ -1,4 +1,5 @@
 #include "Publication.h"
+#include"Error.h"
 
 Publication::Publication()
 {
@@ -9,9 +10,10 @@ Publication::Publication()
 
 Publication::Publication(string n, string a, int y)
 {
+	if (year <= 0)throw Error(2);
+	else year = y;
 	name = n;
 	author = a;
-	year = y;
 }
 
 void Publication::setName(string n)
@@ -46,5 +48,6 @@ int Publication::getYear() const
 
 void Publication::show()
 {
+	if (name == "" || author == "")throw Error(1);
 	cout << name << " by " << author << " - " << year << endl;
 }
