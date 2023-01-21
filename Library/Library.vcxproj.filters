@@ -21,7 +21,19 @@
     <ClCompile Include="Publication.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+
     <ClCompile Include="Error.cpp">
+
+
+    <ClCompile Include="Library.cpp">
+
+ magazine
+    <ClCompile Include="Magazine.cpp">
+
+    <ClCompile Include="Book.cpp">
+ master
+
+
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +41,19 @@
     <ClInclude Include="Publication.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+
     <ClInclude Include="Error.h">
+
+
+    <ClInclude Include="Library.h">
+
+ magazine
+    <ClInclude Include="Magazine.h">
+
+    <ClInclude Include="Book.h">
+ master
+
+
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

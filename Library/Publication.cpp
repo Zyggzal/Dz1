@@ -46,8 +46,9 @@ int Publication::getYear() const
 	return year;
 }
 
-void Publication::show()
+void Publication::show() const
 {
 	if (name == "" || author == "")throw Error(1);
 	cout << name << " by " << author << " - " << year << endl;
 }
+
