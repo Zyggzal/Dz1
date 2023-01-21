@@ -48,3 +48,4 @@ void Publication::show() const
 {
 	cout << name << " by " << author << " - " << year << endl;
 }
+
