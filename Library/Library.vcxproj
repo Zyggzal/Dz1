@@ -123,12 +123,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+
+    <ClCompile Include="Error.cpp" />
+
     <ClCompile Include="Library.cpp" />
+
     <ClCompile Include="Publication.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+
+    <ClInclude Include="Error.h" />
+
     <ClInclude Include="Library.h" />
+
     <ClInclude Include="Publication.h" />
   </ItemGroup>
 

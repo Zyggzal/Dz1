@@ -22,6 +22,9 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
 
+    <ClCompile Include="Error.cpp">
+
+
     <ClCompile Include="Library.cpp">
 
  magazine
@@ -29,6 +32,7 @@
 
     <ClCompile Include="Book.cpp">
  master
+
 
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -38,6 +42,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
 
+    <ClInclude Include="Error.h">
+
+
     <ClInclude Include="Library.h">
 
  magazine
@@ -45,6 +52,7 @@
 
     <ClInclude Include="Book.h">
  master
+
 
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
